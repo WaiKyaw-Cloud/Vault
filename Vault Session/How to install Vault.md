@@ -13,9 +13,10 @@ sudo apt update && sudo apt install vault
 ```
 vault server -dev
 ```
-> runs entirely in-memory
-> starts unsealed with a single unseal key
-> The root token is already authenticated to the CLI
+- runs entirely in-memory
+* starts unsealed with a single unseal key
++ The root token is already authenticated to the CLI
++ test
 
 ```
 WARNING! dev mode is enabled! In this mode, Vault runs entirely in-memory
