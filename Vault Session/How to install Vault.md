@@ -1,5 +1,5 @@
 # Installing Vault
-### For Ubuntu
+### For Ubuntu [Page}(https://developer.hashicorp.com/vault/install)
 
 ```
 wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
