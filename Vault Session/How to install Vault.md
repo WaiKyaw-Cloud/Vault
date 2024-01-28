@@ -16,7 +16,7 @@ vault server -dev
 - runs entirely in-memory
 * starts unsealed with a single unseal key
 + The root token is already authenticated to the CLI
-+ test
+- test
 
 ```
 WARNING! dev mode is enabled! In this mode, Vault runs entirely in-memory
