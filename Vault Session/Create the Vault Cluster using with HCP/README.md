@@ -24,7 +24,6 @@ HCP_CLIENT_SECRET="..."
 > **Warning:** Hard-coded credentials are not recommended in Terraform configuration outside of local testing and risks secret exposure if committed to a code repository.
  
 
-</aside>
 ## Create HVN step
 
 - Sample code reference ([Page](https://registry.terraform.io/providers/hashicorp/hcp/latest/docs/resources/hvn))
