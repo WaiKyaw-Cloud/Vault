@@ -1,4 +1,3 @@
-
 resource "hcp_hvn" "aws_hcp_vault_hvn" {
   hvn_id         = var.hvn_id
   cloud_provider = var.cloud_provider
