@@ -20,9 +20,9 @@ provider "hcp" {
 HCP_CLIENT_ID="..."
 HCP_CLIENT_SECRET="..."
 ```
-
-<aside>
-💡 **Warning:** Hard-coded credentials are not recommended in Terraform configuration outside of local testing and risks secret exposure if committed to a code repository.
+> [!TIP]
+> **Warning:** Hard-coded credentials are not recommended in Terraform configuration outside of local testing and risks secret exposure if committed to a code repository.
+ 
 
 </aside>
 ## Create HVN step
@@ -212,35 +212,43 @@ Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 
 ## Login using the public IP to access the Vault cluster.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/340dcba1-3ba5-431f-95f4-f5fe30747777/14b32049-282b-4ce2-a6d1-9885ac2e90c2/Untitled.png)
+![image](https://github.com/WaiKyaw-Cloud/WaiKyaw-Cloud/assets/157877132/fa568090-e3e1-40eb-afa6-1cd2da1e4a57)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/340dcba1-3ba5-431f-95f4-f5fe30747777/85e21dfe-a3ee-4072-91c2-4b0e1a354fcb/Untitled.png)
+![image](https://github.com/WaiKyaw-Cloud/WaiKyaw-Cloud/assets/157877132/4e952013-2770-487e-a4f0-09546a97b3ce)
+
 
 - Click public
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/340dcba1-3ba5-431f-95f4-f5fe30747777/305c8aca-4ab4-4271-b753-cb873f98890f/Untitled.png)
+![image](https://github.com/WaiKyaw-Cloud/WaiKyaw-Cloud/assets/157877132/c0f35760-33a9-4046-8a97-1248f094fb8a)
+
 
 - Then paste to browser
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/340dcba1-3ba5-431f-95f4-f5fe30747777/07a6c503-18e7-4952-9835-40a7841eb0a4/Untitled.png)
+![image](https://github.com/WaiKyaw-Cloud/WaiKyaw-Cloud/assets/157877132/b8bbcbd8-6c9d-4018-963c-648a62adf450)
+
 
 - Generate a token and paste it above
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/340dcba1-3ba5-431f-95f4-f5fe30747777/858fe138-d02d-40d0-82ea-3ddfecabda27/Untitled.png)
+![image](https://github.com/WaiKyaw-Cloud/WaiKyaw-Cloud/assets/157877132/8e34d32c-9725-4732-8762-8f7bfb347283)
+
 
 - Now you can access the Vault cluster.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/340dcba1-3ba5-431f-95f4-f5fe30747777/99aabb51-e551-4305-9b66-00f4356e2689/Untitled.png)
+![image](https://github.com/WaiKyaw-Cloud/WaiKyaw-Cloud/assets/157877132/f933485a-c193-40a4-b61e-ac89dafb5293)
+
 
 ### How to access via cli
 
 - Generate cli
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/340dcba1-3ba5-431f-95f4-f5fe30747777/df24817c-0df9-472e-bd5c-bff047cc3616/Untitled.png)
+![image](https://github.com/WaiKyaw-Cloud/WaiKyaw-Cloud/assets/157877132/57c2f112-f0e2-4f66-8280-ecc9c503787d)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/340dcba1-3ba5-431f-95f4-f5fe30747777/36e83e18-1ce7-46ed-801c-359a1e7a9eef/Untitled.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/340dcba1-3ba5-431f-95f4-f5fe30747777/a3fea3cf-27d7-4af0-8e88-a1754b8defa3/Untitled.png)
+![image](https://github.com/WaiKyaw-Cloud/WaiKyaw-Cloud/assets/157877132/ab1f6083-6ade-4205-b2e5-6677aa78d25b)
+
+
+![image](https://github.com/WaiKyaw-Cloud/WaiKyaw-Cloud/assets/157877132/a99360ed-8400-4214-96c7-0eebb2bccb84)
+
 
 ```jsx
 vagrant@HelloCloudDevBox:~/Hashicorp-cp/Vault$ export VAULT_ADDR="https://aws-hcp-vault-cluster-public-vault-253b0a34.1758da0f.z1.hashicorp.cloud:8200"; export VAULT_NAMESPACE="admin"
