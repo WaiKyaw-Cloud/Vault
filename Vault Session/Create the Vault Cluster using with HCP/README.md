@@ -251,7 +251,7 @@ Apply complete! Resources: 2 added, 0 changed, 0 destroyed.
 
 ```jsx
 vagrant@HelloCloudDevBox:~/Hashicorp-cp/Vault$ export VAULT_ADDR="https://aws-hcp-vault-cluster-public-vault-253b0a34.1758da0f.z1.hashicorp.cloud:8200"; export VAULT_NAMESPACE="admin"
-vagrant@HelloCloudDevBox:~/Hashicorp-cp/Vault$ export VAULT_TOKEN=hvs.CAESIGeun3eDpLR_paNPOalyNLEKH0p1F2JFr3aVgeyxdlotGicKImh2cy5icHlRR2xEclh3ZG1IcGN5MXhBWEVpbmIuTU5vQnoQggI
+vagrant@HelloCloudDevBox:~/Hashicorp-cp/Vault$ export VAULT_TOKEN=hvs.CAESIGeun3eDpLR_paNPOalyNLEKH0p1F2JFr3aVgeyxdlotGicKImxxxxx (<token value previously copied>)
 vagrant@HelloCloudDevBox:~/Hashicorp-cp/Vault$ vault status
 Key                      Value
 ---                      -----
