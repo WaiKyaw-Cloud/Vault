@@ -1,7 +1,3 @@
-```jsx
-terraform plan -var-file tf-hcp-credentials.tfvars
-```
-
 - Find the HCP Vaulet Provider ([Page](https://registry.terraform.io/providers/hashicorp/hcp/latest/docs/resources/vault_cluster))
 - Before creating the HCP Vault cluster, we must add the HashiCorp Virtual Networks (HVN) code into our Terraform code
 - Save the client ID and secret as the environment variables HCP_CLIENT_ID and HCP_CLIENT_SECRET.
